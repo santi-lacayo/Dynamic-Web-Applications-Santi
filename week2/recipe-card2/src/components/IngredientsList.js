@@ -6,9 +6,9 @@ const IngredientsList = (props) => {
     <div className="ingredients_list">
     <h3 className="list_title">Ingredients</h3>
     <ul>
-        {data.map((item, index) => {
+        {data.map((item, index) => { {/* .map transforms data into an array */}
         return (
-        <li key={index} className="list_item">
+        <li key={index} className="list_item"> {/* key keeps track of list items */}
             {item}
         </li>
         )

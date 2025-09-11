@@ -8,7 +8,7 @@ const InstructionsList = (props) => {
     <ol>
         {data.map((item, index) => {
         return (
-        <li key={index} className="list_item">
+        <li key={index} className="list_item"> 
             {item}
         </li>
         )

@@ -5,7 +5,6 @@ import IngredientsList from './components/IngredientsList'
 import InstructionsList from './components/InstructionsList'
 import RecipeImg from './components/RecipeImg'
 import './components/RecipeCard.css'
-
 import {RECIPE} from './components/recipe-data'
 //top level component
 const App = ()  => {
