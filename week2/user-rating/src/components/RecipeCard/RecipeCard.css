@@ -1,0 +1,115 @@
+.card {
+  position: relative;  /* establish positioning context */
+  border-radius: 20px;
+  background-color: rgb(196, 88, 0);
+  box-shadow: 2px 2px 2px 2px black;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 1rem;
+  max-width: 50%;
+  margin: 1rem;  
+}
+
+.img {
+    width: 25%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.card_text {
+    display: flex;
+    flex-direction: column;
+    padding-top: 2rem;
+}
+
+.recipe_info {
+    margin-left: 1.5rem;
+    color: var(--c-blue);
+}
+
+.recipe_title,
+.list_title {
+   font-family: var(--ff-acme); 
+   font-weight: 400;
+}
+
+.recipe_title {
+    margin: 1rem;
+    font-size: 2.5rem;
+    border-bottom: 0.25rem;
+    padding-top: 20px;
+}
+
+.card_lists {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 1.5rem;
+}
+
+.list_title {
+    margin: 0.5rem 0;
+    font-size: 1.625rem;
+    color: var(--c-blue);
+  }
+  
+  .ingredients_list {
+    width: 40%;
+  }
+  
+  .ingredients_list ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .list_item {
+    margin-bottom: 0.75rem;
+  }
+  
+  .instructions_list {
+    width: 50%;
+  
+    & ol {
+      padding-left: 1.25rem;
+    }
+  }
+
+  .buttons {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    display: flex;
+    gap: 0.5rem; 
+  }
+
+  .button1 {
+    background-color: rgb(106, 51, 21);
+    border: none;
+    box-shadow: 2px 2px 2px black;
+    padding: 10px;
+    padding-left: 11.5px;
+    padding-right: 11.5px;
+    border-radius: 10px; 
+    align-self: center;  
+  }
+
+  #button2 {
+    background-color: rgb(106, 51, 21);
+    border: none;
+    box-shadow: 2px 2px 2px black;
+    padding: 10px;
+    border-radius: 10px; 
+    align-self: center;  
+  }
+
+  .symbol {
+    color: rgb(179, 0, 0);
+    display: inline-flex;  /* keeps icon inline */;
+    align-items: center;   /* vertically centers the SVG */
+  }
+
+  .header-1 {
+    color: rgb(106, 51, 21);
+    padding-left: 2rem;
+  }
