@@ -1,5 +1,5 @@
 import React from 'react'
-//components is where we have each of our components and then pages is where we import them to (style sheet)
+//components is where we have each of our components and then pages is where we demo them to display them on screen (style sheet)
 import Accordion from '../components/Accordion'
 
 const ITEMS = [
