@@ -1,9 +1,10 @@
 //Here you could put all your components together
 import Button from '../components/Button'
 
-const App = () =>{
+const ButtonPage = () =>{
   return (
     <>
+    <h1>Button Page</h1>
     <div>
       {/* Children of the component Button */}
       <Button primary onClick={() => {console.log('CLICK')}}>Buy Now</Button>

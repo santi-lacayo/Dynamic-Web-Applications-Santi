@@ -1,7 +1,5 @@
 import { useState } from "react"
 
-
-
 const Dropdown = ({ title, items }) => {
     //make a constant to control the dropdown and set the initial state to false
     const [open,setOpen] = useState(false);

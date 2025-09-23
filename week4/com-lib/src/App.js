@@ -1,13 +1,10 @@
 // import ButtonPage from './pages/ButtonPage'
-//import AccordionPage from './pages/AccordionPage'
+// import AccordionPage from './pages/AccordionPage'
 import DropdownPage from './pages/DropdownPage'
+// import {Panel} from './pages/DropdownPage'
 
 const App = () => {
-  return <AccordionPage />
-  //return <DropdownPage />
+  return <DropdownPage />
 }
 
 export default App
-
-
-
