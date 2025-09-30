@@ -5,6 +5,7 @@ import Navbar from './components/Navbar'
 import ButtonPage from './pages/ButtonPage'
 import AccordionPage from './pages/AccordionPage'
 import DropdownPage from './pages/DropdownPage'
+import DropdownhwkPage from './pages/DropdownhwkPage'
 // then your CSS and or DATA files 
 //import './index.css'
 // data example
@@ -21,6 +22,7 @@ const App = () => {
           <Route path="/" element={<ButtonPage />} />
           <Route path="/accordion" element={<AccordionPage />} />
           <Route path="/dropdown" element={<DropdownPage />} />
+          <Route path="/dropdownhwk" element={<DropdownhwkPage/>} />
         </Routes>
       </div>
     </div>

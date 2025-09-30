@@ -13,6 +13,7 @@ const Navbar = () => {
         <Link to="/" className="text-blue-500">Button</Link>
         <Link to="/accordion" className="text-blue-500">Accordion</Link>
         <Link to="/dropdown" className="text-blue-500">Dropdown</Link>
+        <Link to="/dropdownhwk" className="text-blue-500">Homework</Link>
     </Panel>
   )
 }
