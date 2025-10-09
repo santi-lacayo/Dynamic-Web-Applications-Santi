@@ -9,7 +9,7 @@ const searchImages = async (term) => {
       headers: {
         Authorization: `Client-ID ${process.env.REACT_APP_UNSPLASH_KEY}`,
       },
-      params: { query: term},  
+      params: {query: term},  
     })
     return response.data.results
 }
