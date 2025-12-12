@@ -1,0 +1,49 @@
+{
+  "artData": [
+    {
+      "title": "",
+      "artist": "",
+      "price": "",
+      "category": "",
+      "description": "",
+      "image": "https://i.pinimg.com/1200x/e2/10/6d/e2106d7e4cc30417423abeb22a2a6a4e.jpg",
+      "id": 1
+    },
+    {
+      "title": "The DJ",
+      "artist": "Ben Frank",
+      "price": "400",
+      "category": "Music, DJ, Exotic, Oil",
+      "description": "80 x 90 cm",
+      "image": "https://i.pinimg.com/1200x/7b/c0/42/7bc04261a6c9b7bcfd764df74a4a1c43.jpg",
+      "id": 2
+    },
+    {
+      "title": "Horse Riding",
+      "artist": "Sarah York",
+      "price": "450",
+      "category": "Animal, Cowboy, Earth, Surrealist",
+      "description": "100 x 200 cm",
+      "image": "https://i.pinimg.com/1200x/1e/f4/75/1ef4757977d30061a76a939219ca7446.jpg",
+      "id": 3
+    },
+    {
+      "title": "Barista",
+      "artist": "Anthony Powell",
+      "price": "600",
+      "category": "Oil, Bar, Cocktail, Funky",
+      "description": "40 x 80 cm",
+      "image": "https://i.pinimg.com/736x/91/f4/9c/91f49c0a6dcb2a4ff213c77a44c17258.jpg",
+      "id": 4
+    },
+    {
+      "title": "Red Doberman",
+      "artist": "Andrea Pina",
+      "price": "350",
+      "category": "Animal, Red, Dog",
+      "description": "60 x 90 cm",
+      "image": "https://i.pinimg.com/474x/a1/b1/f2/a1b1f2e9c3072311c1d8b40fc81f2f00.jpg",
+      "id": 5
+    }
+  ]
+}
