@@ -1,0 +1,22 @@
+GET http://localhost:3001/artData HTTP/1.1
+Content-Type: application/json
+###
+POST http://localhost:3001/artData HTTP/1.1
+Content-Type: application/json
+{
+  "title": "Beautiful Artwork",
+  "artist": "Me",
+  "price": "200",
+  "category": "Digital",
+  "description": "Testing JSON server",
+  "image": "test.jpg"
+}
+###
+PUT http://localhost:3001/artData/1 HTTP/1.1
+Content-Type: application/json
+{
+  "title": "Updated Artwork Title"
+}
+###
+DELETE http://localhost:3001/artData/1 HTTP/1.1
+Content-Type: application/json
